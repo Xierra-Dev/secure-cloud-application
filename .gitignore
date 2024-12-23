@@ -169,3 +169,9 @@ cython_debug/
 
 # PyPI configuration file
 .pypirc
+
+# requirements secure cloud
+.env
+*.db
+__pycache__/
+.venv/
