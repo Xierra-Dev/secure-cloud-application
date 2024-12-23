@@ -129,7 +129,7 @@ celerybeat.pid
 
 # Environments
 .env
-.venv
+.venv/
 env/
 venv/
 ENV/
@@ -172,6 +172,7 @@ cython_debug/
 
 # requirements secure cloud
 .env
-*.db
 __pycache__/
-.venv/
+*.pyc
+instance/
+venv/
